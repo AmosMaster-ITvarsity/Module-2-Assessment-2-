@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ==========Main Page ======*/
+
+
+.main-page{
+    
+    overflow: hidden;
+}
+
+header .navigation{
+    width: 100%;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    position: fixed;
+}
+
+header .navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bolder;
+    
+    justify-content: space-between;
+    padding-left: 55px;
+
+    display: block;
+    float: left;
+    color: white;
+    
+    width: 9%;
+   
+}
+
+header .navigation a:hover{
+    color: white;
+}
+
+.backdrop{
+    width: 100%;
+    height: 50%;
+    padding-bottom: 15%;
+}
+
+.content h1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color:  white;
+    font-size: 70px;
+}
+
+.content{
+    background-image: url(pictures/another2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    
+}
+.content h1{
+    display: block;
+}
+
+button{
+    height: 41px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-bottom: 35px;    
+    margin-left: 40%;
+    background-color: black;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+button:hover{
+     filter: drop-shadow(10px 3px 4px);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.shops{
+    margin-left: 20px;
+}
+
+.shops table td img{
+    margin-right: 12px;
+}
+
+.shops table td img:hover{
+    filter: blur(1px);
+}
+
+footer{
+    width: 100%;
+    height: 110px;
+    margin-top: -190px;
+    padding-bottom: 10px;
+    background-color: #343A40;
+}
+
+footer p{
+    padding-top: 24px;
+    font-weight: 200;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+
+/* ====End Of the main Page =====*/
+
+/* =====Start Of About Page ====*/
+
+.about-backdrop{
+    background:  #fff;
+}
+
+.backdrop-1{
+    width: 100%;
+    height: 50%;
+    padding-bottom: 3%;
+    background-image: url(pictures/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-1{
+    padding-top: 150px;
+    padding-bottom: 33px;
+    
+}
+
+.content-1 h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.about-1{
+    margin-left: 55px;
+    width: 93%;
+    height: 2%;
+    background: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.about-1 h2{
+    margin-left: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-2 {
+    margin-left: 70px;
+    width: 90.9%;
+    padding-bottom: 5%;
+    height: 20%;
+    background: #343A40; 
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.about-2 p{
+    margin-left: 25px;
+    padding-top: 12px;
+    color: white;
+    font-size: 21px;
+}
+
+/* =========End Of About Page ====*/
+
+/* =======Shops Page===========*/
+
+.list{
+    width: 100%;  
+}
+
+
+.list table tr td{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.list table tr td p{
+    text-align: center;
+}
+
+
+.list table tr td img{
+margin-left: 45px;
+text-align: center;
+}
+
+.list table tr td img:hover{
+    filter: blur(1px);   
+}
+
+.backdrop-2{
+    width: 100%;
+    height: 3%;
+    padding-bottom: 4.5%;
+    background: #343A40;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list table tr td button{
+    margin-left: 80px;
+    width: 50px;
+    height: 20px;
+    padding: 12px;
+    color: white;
+}
+
+/*========End Of Shops ===========*/
+
+/*========Start of Contact ===========*/
+
+.nav{
+    width: 100%;
+    height: 20%;
+    
+    padding-top: 17px;
+    padding-bottom: 40px;
+    
+    background:  #343A40;
+}
+
+.nav a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bolder;
+    
+    justify-content: space-between;
+    padding-left: 55px;
+
+    display: block;
+    float: left;
+    color: white;
+    
+    width: 9%;
+}
+
+.nav a:hover{
+}
+
+.contact{
+    background-image: url(pictures/5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#form{
+
+    width: 100%;
+}
+
+#form h2{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2,form {
+    padding-top: 21px;    
+}
+
+#form label{
+    color: white;
+    padding-bottom: 12px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+form textarea{    
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    margin-left: 20px;
+    background:  #343A40;
+    color: white;
+}
+
+form input{
+    width: 90%;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-left: 12px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    color: black;
+    font-weight: bold;
+}
+
+#form{
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 2px black;
+    width: 45%;
+    padding-bottom: 3.4%;
+    
+}
+
+#form button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact-info{
+    margin-left: 46%;
+    margin-top: -42.5%;
+    padding-top: -34%;
+    padding-bottom: 20%;
+    
+}
+
+.contact-info h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+
+.cont{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.cont tr img{
+    margin-left: 50px;
+}
+
+.cont tr td{
+    padding-left: 21px;
+}
+
+.cont tr p{
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    text-align: center;
+    
+    font-size: 27px;
+    
+    border-radius: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.cont tr p:hover{
+    filter: blur(1px);
+    cursor: default;
+}
+
+
+/*======End Of Contact Page =========*/
+
+/*=======Start of specials Page======*/
+
+.specials-main{
+    overflow: hidden;
+}
+
+
+#specials{
+    width: 100%;
+    padding-bottom: 23px;
+    
+    background-color: dimgray;
+}
+
+#specials h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    
+    padding-top: 12px;
+    
+    font-size: 41px;   
+}
+
+#specials1 img{
+    
+    padding-top: 20px;
+    margin-left: 121px;
+    
+} 
+
+#specials h2:hover{
+    filter: blur(1px);
+}
+
+#shop-specials{
+    width: 100%;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+
+table .list-items p{
+    margin-left: 40px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+table .list-items p a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+table .list-items td h3{
+    margin-right: 140px;
+    padding-bottom: 15px;
+    
+    font-size: 30px;
+    width: 70%;
+}
+
+table .list-items td h5{
+    text-transform: uppercase;
+    font-size: 21px;
+    float: left;
+    color: red;
+}
+
+table .btn td button{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 45px;
+}
+
+table .btn td button h4{
+    color: white;
+}
+
+table .list-items td img{
+    margin-right: 121px;
+    
+}
+
+/*========Shoplist Pages=======*/
+
+.shop1 .img1 {
+    text-align: center;
+}
+
+.shop1,h5{
+    text-align: center;
+}
+
+#shop1 img{
+    
+    margin-left: 40%;
+}
+
+.details-shop p{
+    
+    margin-top: 50px;
+}
+
+.details-shop1 p{
+    
+    margin-top: 23px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.details-shop h1, p, h3{
+    padding-bottom: 10px;
+}
+
+.details-shop1 h1,h3 {
+    text-align: center;
+}
+
+.details-shop img{
+    margin-left: 18.5%;
+}
+
+.details-shop1 img{
+    margin-left: 18.5%;
+}
+
+.button button{
+    
+    padding: 2px;
+    margin-left: 45%;
+    width: 12%;
+    background-color: darkgoldenrod;
+}
+
+.button button h3{
+    color: white;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+/*======Shoplist End===========*/
+
+/*=======Mall Map Start========*/
+
+.nav2{
+    position: 80px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    
+    padding-bottom: 12px;
+    
+    background:  #343A40;
+    position: fixed;
+    z-index: 500;
+}
+
+
+
+.nav2 a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bolder;
+    
+    padding-left: 55px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    display: block;
+    float: left;
+    color: white;
+    
+    width: 9%;
+}
+
+.map{
+    margin-top: 10px;
+}
+
+
+/*====End of Mall Map======*/
+
+
